@@ -80,15 +80,6 @@ img {
     font-family: 'Commissioner', sans-serif;
   }
 
-  .container .grey {
-    display: inline;
-    width: 100%;
-  }
-
-  #lezioni .container>.row {
-    background-color: red;
-  }
-
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 80%;
@@ -99,7 +90,6 @@ img {
 
   img {
     height: 300px;
-    text-align: left;
   }
 
   h1 {
