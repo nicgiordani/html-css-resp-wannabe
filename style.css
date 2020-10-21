@@ -80,6 +80,11 @@ img {
     font-family: 'Commissioner', sans-serif;
   }
 
+  .container .grey {
+    display: inline;
+    width: 100%;
+  }
+
   #lezioni .container>.row {
     background-color: red;
   }
@@ -109,12 +114,34 @@ img {
     margin-top: 10px;
   }
 
+  #steps .container .grey {
+    width: 100%;
+    background-color: red;
+  }
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
     float: none;
     width: 80%;
     margin: auto;
+    margin-bottom: 40px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 80%;
+    margin-top: 80px;
+    margin: auto;
+  }
+
+  #why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
   }
 
 }
